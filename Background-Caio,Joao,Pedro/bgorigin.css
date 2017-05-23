@@ -1,0 +1,23 @@
+/* bgorigin */
+*#exemplo1 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(Pictures/bgorigin.jpeg);
+    background-repeat: no-repeat;
+}
+
+#exemplo2 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(Pictures/bgorigin.jpeg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+#exemplo3 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(Pictures/bgorigin.jpeg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}

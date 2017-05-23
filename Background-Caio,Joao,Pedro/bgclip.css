@@ -1,0 +1,20 @@
+/* bgclip */
+#exemplo1 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: aqua;
+}
+
+#exemplo2 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: green;
+    background-clip: padding-box;
+}
+
+#exemplo3 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: red;
+    background-clip: content-box;
+}
